@@ -29,3 +29,5 @@ WebUI.verifyElementPresent(findTestObject('TC-02 Manual Scriptless/Page_CURA Hea
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
