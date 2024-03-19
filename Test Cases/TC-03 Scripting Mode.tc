@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test</name>
+   <name>TC-03 Scripting Mode</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5c3165b7-361c-42e0-a0c7-7b18c89ecc21</testCaseGuid>
+   <testCaseGuid>8a6775d5-622b-4aea-8161-ff60e232dbe9</testCaseGuid>
 </TestCaseEntity>
