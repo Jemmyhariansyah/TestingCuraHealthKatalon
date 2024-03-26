@@ -27,7 +27,10 @@ WebUI.click(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service
 
 WebUI.verifyElementPresent(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/h2_Make Appointment'), 0)
 
+WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_Logout'))
 WebUI.closeBrowser()
 
-WebUI.acceptAlert()
+
 
