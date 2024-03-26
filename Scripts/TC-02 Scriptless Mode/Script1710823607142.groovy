@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
