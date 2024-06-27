@@ -15,21 +15,21 @@
       <guid>956debe4-98e1-456b-9d68-8decb5aff300</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginTests/LoginTest</testCaseId>
+      <testCaseId>Test Cases/Test Case Login Regis/LoginTest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9d11ba06-db73-4fdd-91b4-dbc9940a2e1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginTests/TC-02 Scriptless Mode</testCaseId>
+      <testCaseId>Test Cases/Test Case Login Regis/TC-02 Scriptless Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b2385ee7-a912-4221-9842-42accc5d5c07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginTests/TC-03 Scripting Mode</testCaseId>
+      <testCaseId>Test Cases/Test Case Login Regis/TC-03 Scripting Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
