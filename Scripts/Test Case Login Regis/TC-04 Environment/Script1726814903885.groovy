@@ -17,21 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://wakool.academy/')
 
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Username_username'), Username)
+WebUI.click(findTestObject('Object Repository/Page_Dashboard  Wakool Academy/a_Masuk'))
 
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Password_password'), Password)
+WebUI.setText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Email_login_user'), 'xju51771@vogco.com')
 
-WebUI.click(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/button_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Password_login_password'), '6TZDCUec4yDpudglGm9Nzw==')
 
-WebUI.verifyElementPresent(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/h2_Make Appointment'), 0)
-
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_Login  Wakool Academy/button_Masuk'))
 
 WebUI.closeBrowser()
 

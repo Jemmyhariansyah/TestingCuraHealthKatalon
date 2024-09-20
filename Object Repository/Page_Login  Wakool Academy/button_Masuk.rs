@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Masuk</name>
+   <tag></tag>
+   <elementGuidId>da71c1df-6d33-472e-8ef1-6a4a8f1dd80f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form_login']/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-login</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f36da30f-feb6-4c6f-81f5-a9f66462f68b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-login</value>
+      <webElementGuid>9315bd0e-d02a-4b4d-ab11-e930a2862b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk  </value>
+      <webElementGuid>3191a6d0-dddf-4cb3-96f7-2cb8630f23e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_login&quot;)/button[@class=&quot;btn-login&quot;]</value>
+      <webElementGuid>6da75bc5-1681-48cf-a9bb-39772e5f012e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form_login']/button</value>
+      <webElementGuid>5bf302a9-8031-4ea8-aad5-72507cd8938c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password tidak boleh kosong'])[1]/following::button[1]</value>
+      <webElementGuid>73dd9730-f094-4147-bd5a-bc659e6078fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[2]</value>
+      <webElementGuid>c45608e6-5575-42dd-99d0-bcc27d62c79a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Password?'])[1]/preceding::button[1]</value>
+      <webElementGuid>e92e9b3e-9177-4070-ab59-299cb2544a2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Sekarang'])[2]/preceding::button[1]</value>
+      <webElementGuid>cca5bdbf-2b1e-465d-8e7b-7f69471ab8cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>138ed53e-3708-4eb5-abef-d370d343cc67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Masuk  ' or . = 'Masuk  ')]</value>
+      <webElementGuid>c379f7bb-173c-4906-8799-a1e7ddcfe972</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

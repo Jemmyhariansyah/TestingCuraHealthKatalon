@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a3ffcf0b-0090-4213-b228-2d040165821a</testSuiteGuid>
+   <testCaseLink>
+      <guid>2b360a8b-18a5-45ee-8963-144d3a667514</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Case Login Regis/TC-02 Scriptless Mode</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0781459-f138-43f2-a750-a51d76f719a5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginData/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c0781459-f138-43f2-a750-a51d76f719a5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>cca3f747-d646-4eb5-8de4-c12fcac662e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0781459-f138-43f2-a750-a51d76f719a5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>5e7de852-6ae1-40d0-a824-2a218c8fc7e6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

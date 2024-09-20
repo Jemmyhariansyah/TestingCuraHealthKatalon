@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Login Regis/TC-02 Scriptless Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cca3f747-d646-4eb5-8de4-c12fcac662e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e7de852-6ae1-40d0-a824-2a218c8fc7e6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b2385ee7-a912-4221-9842-42accc5d5c07</guid>
@@ -31,5 +43,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Login Regis/TC-03 Scripting Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>895a98d2-8f45-40cd-a53b-c2506ed375c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a523f325-78a9-4297-a764-bdc08af6eeea</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
