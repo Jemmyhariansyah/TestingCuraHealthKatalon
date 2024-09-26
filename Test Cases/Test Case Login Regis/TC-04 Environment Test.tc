@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-04 Environment</name>
+   <name>TC-04 Environment Test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>31fefdc3-33d9-477b-9a32-4cd8b3408c93</testCaseGuid>
