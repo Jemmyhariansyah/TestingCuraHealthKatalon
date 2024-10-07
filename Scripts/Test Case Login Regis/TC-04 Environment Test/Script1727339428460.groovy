@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://wakool.academy/')
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard  Wakool Academy/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Email_login_user'), 'xju51771@vogco.com')
+WebUI.setText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Email_login_user'), GlobalVariable.UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Password_login_password'), '6TZDCUec4yDpudglGm9Nzw==')
+WebUI.setText(findTestObject('Object Repository/Page_Login  Wakool Academy/input_Password_login_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_Login  Wakool Academy/button_Masuk'))
 
