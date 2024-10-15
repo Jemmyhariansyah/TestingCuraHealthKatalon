@@ -1,3 +1,5 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,19 +19,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.maximizeWindow()
+CustomKeywords.'com.ea.utilities.WebAuthenticator.loginWithGoogle'(GlobalVariable.username, GlobalVariable.password, false)
 
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Username_username'), Username)
+WebUI.navigateToUrl('https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f')
 
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Password_password'), Password)
+WebUI.click(WebAuthenticator.buildTestObject('[data-provider="google"]'))
+//WebUI.click(WebAuthenticator.buildTestObject('[data-authuser="0"]'))
 
-WebUI.click(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/button_Login'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_Logout'))
-
+//WebUI.click(WebAuthenticator.buildTestObject('[data-authuser="0"]'))
+//WebUI.delay(5)
+//
+//WebUI.click(WebAuthenticator.buildTestObject("//span[contains(., 'Continue')]"))
+//WebUI.delay(30)
 WebUI.closeBrowser()
 

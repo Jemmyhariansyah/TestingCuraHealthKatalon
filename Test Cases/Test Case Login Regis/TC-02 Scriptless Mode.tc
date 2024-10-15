@@ -18,14 +18,14 @@
       <variableId>5e7de852-6ae1-40d0-a824-2a218c8fc7e6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
       <id>cca3f747-d646-4eb5-8de4-c12fcac662e3</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
       <id>5e7de852-6ae1-40d0-a824-2a218c8fc7e6</id>
       <masked>false</masked>

@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Username_username'), Username)
-
-WebUI.setText(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/input_Password_password'), Password)
-
-WebUI.click(findTestObject('TC-02 Manual Scriptless/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Object Repository/TC-03 Scripting Mode/Page_CURA Healthcare Service/a_Logout'))
-
-WebUI.closeBrowser()
-
